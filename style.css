@@ -168,3 +168,22 @@ img{
     padding: 1em;
     list-style-type: none;
 }
+
+.contact-pieces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glyph-text{
+    padding: 0;
+}
+
+.glyph{
+    width: 10%;
+}
+
+#email:hover{
+    text-decoration: underline;
+    color: #4F6D7A;
+}
