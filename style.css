@@ -163,3 +163,8 @@ a:visited{
 img{
     max-width: 30%
 }
+
+.answer{
+    padding: 1em;
+    list-style-type: none;
+}
