@@ -187,3 +187,35 @@ img{
     text-decoration: underline;
     color: #4F6D7A;
 }
+
+.images{
+    text-align: center;
+}
+
+
+.slider{
+    position: relative;
+    overflow: hidden;
+}
+
+.slider img{
+    display: none;
+    margin: 0 auto;
+    min-width: 800px;
+}
+
+img.displaySlide{
+    display: block;
+    animation-name: fade-slide;
+    animation-duration: 1s;
+}
+
+
+@keyframes fade-slide{
+    from{
+        translate: 90vw 0;
+    }
+    to{
+        translate: 0, 0;
+    }
+}

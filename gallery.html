@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Jim Jam's moving</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
@@ -19,8 +20,45 @@
         </ul>
       </nav>
     </header>
-    <main>
-
+    <main class="content-wrapper">
+      <section class="hero">
+        <h2>Gallery</h2>
+        <p>See the results of our work firsthand!</p>
+        <a href="contact.html">Schedule a service with us now!</a>
+      </section>
+      <section class="images">
+        <div class="slider">
+          <div class="slides">
+            <img class="slide" src="media/cabinet-from-truck.jpg">
+            <img class="slide" src="media/couch-move-2.webp">
+            <img class="slide" src="media/hanging-art.jpeg">
+            <img class="slide" src="media/box-in-truck.webp">
+            <img class="slide" src="media/jim-and-jam.webp">
+            <img class="slide" src="media/couch-move.jpg">
+            <img class="slide" src="media/hang-picture.jpg">
+            <img class="slide" src="media/movers-carrying-boxes.webp">
+            <img class="slide" src="media/box-from-truck.jpg">
+            <img class="slide" src="media/leveling-art.webp">
+          </div>
+          <div class="buttons">
+            <button class="prevbutton" onClick="prevSlide()">&#10094</button>
+            <button class="prevbutton" onClick="nextSlide()">&#10095</button>
+          </div>
+        </div>
+      </section>
     </main>
+    <section class="bottom-nav">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </nav>
+      </section>
+      <script src="script.js"></script>
   </body>
 </html>
