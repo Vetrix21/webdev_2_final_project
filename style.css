@@ -4,6 +4,11 @@ h1{
     margin: 0;
     padding: 0px 15px;
 }
+h2{
+    color: #4A6FA5;
+    text-transform: uppercase;
+}
+
 
 h3{
     color: #DBE9EE;
@@ -18,8 +23,6 @@ body{
 
 .content-wrapper{
     width: 100%;
-    display: flex;
-    position: relative;
     justify-content: center;
     align-items: center;
     padding: 1em;
@@ -73,6 +76,7 @@ nav li{
 
 a{
     text-decoration: none;
+    color: #166088
 }
 
 nav a{
@@ -112,4 +116,50 @@ a:visited{
 
 .bottom-nav a{
     color: #091820;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.left-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #166088;
+    color:#CEE0E7;
+}
+
+.right-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #C0D6DF;
+    color: #091820;
+}
+
+.left-text a{
+    color:#CEE0E7;
+}
+
+.right-text h3{
+    color: #166088;
+}
+
+.text{
+    text-align: center;
+    padding: 1em;
+}
+
+img{
+    max-width: 30%
 }
